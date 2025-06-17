@@ -1,6 +1,27 @@
+:root {
+    --color-red : red;
+    --color-green: green;
+    --color-default: aliceblue;
+
+    --bg-color : var(var(--color-default));
+}
+
 .page-body {
     padding: 0;
     margin: 0;
-    background-color: aliceblue;
-                
+    background-color: var(--bg-color);
+}
+
+.page-body-text {
+    padding-top: 400px;
+    padding-left: 850px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.make-request {
+    margin-top: 400px;
+    margin-left: 880px;
+    width: 200px;
+    height: 50px;
 }
